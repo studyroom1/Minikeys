@@ -5,9 +5,14 @@
 - Many thanks to [PawelGorny](https://github.com/PawelGorny/MinikeyCuda) in the development of the program. 
 - Write a checkpoint every minute to a file fileStatus.txt
 
-Run: ```MinikeyCuda.exe -b 256 -t 256 -rangeStart SkK5VPtmTm3mQKYaJQ2222 -input serie1.txt```
+Run GPU TEST: ```MinikeyCuda.exe -input test_SkK5VPtmTm3mQKYaJQFRZP.txt -rangeStart SkK5VPtmTm3mQKYaJQ2222```</br>
+Run GPU: ```MinikeyCuda.exe -input serie1.txt -rangeStart SkK5VPtmTm3mQKYaJQ2222```
 
-![minikeyS](https://user-images.githubusercontent.com/82582647/154101806-5ee4d706-2c9b-49af-aaf4-33f24a8e45d0.png)
+![minikeyS](https://user-images.githubusercontent.com/82582647/157493492-9ba3dbba-0847-4de7-bc10-42f54b49ca3b.jpg)
+
+Run CPU random: ```MinikeyCuda.exe -input -input serie1.txt -random```
+
+![minikeyS](https://user-images.githubusercontent.com/82582647/157494055-f6c787a3-6bd7-4eee-ad7d-21e4d87a8ac3.jpg)
 
 
 ## Building

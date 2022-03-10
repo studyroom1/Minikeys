@@ -8,11 +8,11 @@
 Run GPU TEST: ```MinikeyCuda.exe -input test_SkK5VPtmTm3mQKYaJQFRZP.txt -rangeStart SkK5VPtmTm3mQKYaJQ2222```</br>
 Run GPU: ```MinikeyCuda.exe -input serie1.txt -rangeStart SkK5VPtmTm3mQKYaJQ2222```
 
-![minikeyS](https://user-images.githubusercontent.com/82582647/157493492-9ba3dbba-0847-4de7-bc10-42f54b49ca3b.jpg)
+![GPU](https://user-images.githubusercontent.com/82582647/157701762-0847585a-eecc-4ba9-95eb-f49906d8271a.png)
 
 Run CPU random: ```MinikeyCuda.exe -input -input serie1.txt -random```
 
-![minikeyS](https://user-images.githubusercontent.com/82582647/157494055-f6c787a3-6bd7-4eee-ad7d-21e4d87a8ac3.jpg)
+![CPU](https://user-images.githubusercontent.com/82582647/157701783-5a063b92-d217-4dec-ba0c-dbed414ada0c.png)
 
 
 ## Building

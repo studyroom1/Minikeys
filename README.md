@@ -1,11 +1,10 @@
 # Minikeys
-### Pilot project searching for BitCoin [minikeys 22 characters](https://en.bitcoin.it/wiki/Mini_private_key_format) on the GPU Cuda.
+### Searching for BitCoin [minikeys 22 characters](https://en.bitcoin.it/wiki/Mini_private_key_format) on the GPU Cuda.
 
-- The program is under testing, errors are possible.
 - Write a checkpoint every minute to a file fileStatus.txt
 
-Run GPU TEST: ```MinikeyCuda.exe -input test_SkK5VPtmTm3mQKYaJQFRZP.txt -rangeStart SkK5VPtmTm3mQKYaJQ2222```</br>
-Run GPU: ```MinikeyCuda.exe -input serie1.txt -rangeStart SkK5VPtmTm3mQKYaJQ2222```
+Run GPU TEST:<br>```MinikeyCuda.exe -input test_SkK5VPtmTm3mQKYaJQFRZP.txt -rangeStart SkK5VPtmTm3mQKYaJQ2222```</br>
+Run GPU:</br>```MinikeyCuda.exe -input serie1.txt -rangeStart SkK5VPtmTm3mQKYaJQ2222```
 
 ![GPU](https://user-images.githubusercontent.com/82582647/157701762-0847585a-eecc-4ba9-95eb-f49906d8271a.png)
 
